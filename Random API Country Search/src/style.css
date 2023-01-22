@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    background-color: #393b63; 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.country-search-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin-top: 2rem;
+     padding: 1rem;
+     background-color: #002c3e;
+     width: 25rem;
+     height: 12rem;
+     border-radius: .5rem;
+}
+.country-search-form h3 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+.country-search-form input {
+    display: block;
+    height: 1.6rem;
+    padding: auto 2rem;
+    outline: none; 
+    padding: 1rem 2rem;
+}
+.country-search-form button {
+    background-color: #7bbcc4;
+    color: #ffff;
+    margin: 1.5rem 0;
+    padding: .8rem 2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+}
+.country-details{
+    background-color: #002c3e;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.country-details div h3 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.country-details div img {
+     border-radius: .5rem;
+}
+.country-details div p {
+    color: #fff;
+    padding: .5rem 0;
+}
