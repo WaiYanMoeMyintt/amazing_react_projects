@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #f7444e;
+
+}
+
+.advice_app{
+    background-color: #f7f8f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    max-width: 500px;
+    margin: 0 auto;
+    transform: translateY(12rem);
+    border-radius: 1rem;
+}
+.advice_app .new-advice {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 1rem;
+}
+
+.new-advice p {
+      padding: 1rem 0;
+      font-size: 1.3rem;
+      color: #000;
+}
+
+.new-advice button {
+    background-color: #0f0d35;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: .5rem .8rem;
+    border-radius: .4rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}
